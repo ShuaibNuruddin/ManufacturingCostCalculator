@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Manufacturing Cost Calculator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>MANUFACTURING COST CALCULATOR</h1>
+        <table border="5" bordercolor="black" align="center">
+            <tr>
+                <th colspan="2" >Manufacturing Costs</th>
+            </tr>
+            <tr>
+                <td>Mark-up (%)</td>
+                <td><input type="number" id="mark_up" /></td>
+            </tr>
+            <tr>
+                <td>No. of units produced</td>
+                <td><input type="number" id="noOfUnits" /></td>
+            </tr>
+            <tr>
+                <td>Direct Materials Cost</td>
+                <td><input type="number" id="dmc" /></td>
+            </tr>
+            <tr>
+                <td>Direct Labour Cost</td>
+                <td><input type="number" id="dlc" /></td>
+            </tr>
+            <tr>
+                <td>Factory Overhead Cost</td>
+                <td><input type="number" id="foc" /></td>
+            </tr>
+            <tr>
+                <td>Selling and Distribution Cost</td>
+                <td><input type="number" id="sdc" /></td>
+            </tr>
+            <tr>
+                <td>Administration Cost</td>
+                <td><input type="number" id="ac" /></td>
+            </tr>
+        </table>
+        <br>
+        <div>
+          <button id="button" align="center">Calculate Costs</button>
+        </div>
+        <p id="dmcpu">Direct material cost per unit: </p>
+        <p id="dlcpu" >Direct labour cost per unit: </p>
+        <p id="pcpu" >Prime cost per unit: </p>
+        <p id="focpu">Factory overhead cost per unit: </p>
+        <p id="cpfgpu" >Cost of production of finished goods per unit: </p>
+        <p id="sdcpu" >Selling and distribution cost per unit: </p>
+        <p id="acpu" >Administration cost per unit: </p>
+        <p id="vcpu" >Variable cost per unit:</p>
+        <p id="sppu" >Selling price per unit: </p>
+        <p id="tfc" >Total fixed costs: </p>
+        <p id="cpu" >Contribution per unit: </p>
+        <p id="bep" >Break-even point: </p>
+  <script src="script.js"></script>
+
+
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
