@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #66b3ff;
+}
+
+h1 {
+    text-align: center;
+    color: #0c1ec4;
+}
+
+input {
+    border-radius: 5px;
+}
+
+button{
+  width: 15%;
+  height: 100%;
+}
+
+div {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table,th, td {
+    border-radius: 5px;
+    padding: 3px;
+}
